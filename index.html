@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="jquery.orgchart.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <ul id="org">
-        <li style="width: 300px; background: red;">
+      <li style="width: 300px; background: red;">
+        <div class="mensaje">
+          Hola
+        </div>
+        <ul>
+          <li>
             <div class="mensaje">
-                Hola
+              Hola
             </div>
-            <ul>
-                <li>
-                        <div class="mensaje">
-                                Hola
-                            </div>
-                </li>
-            </ul>
-
-        </li>
+          </li>
+        </ul>
+      </li>
     </ul>
 
     <script src="jquery.min.js"></script>
     <script src="jquery.orgchart.min.js"></script>
 
     <script>
-        $(function () {
-            $("#org").orgChart();
-        });
+      $(function() {
+        $("#org").orgChart();
+      });
     </script>
-</body>
-
+  </body>
 </html>
