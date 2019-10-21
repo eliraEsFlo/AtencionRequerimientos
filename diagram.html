@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+        <svg height="210" width="500">
+                <line x1="50" y1="0" x2="50" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" id="line"/>
+         </svg> 
+
+    <script>
+
+        let div = document.createElement('div');
+        div.innerHTML = "hola";
+        div.style.width = '100px';
+        div.style.height = '100px';
+        div.style.background = 'black';
+        div.style.color = 'white';
+        div.style.textAlign = 'center';
+
+        alert(div.offsetTop);
+
+        document.body.appendChild(div);
+
+    </script>
+</body>
+</html>

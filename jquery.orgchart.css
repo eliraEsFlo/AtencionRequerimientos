@@ -29,7 +29,7 @@ div.orgChart table {
 }
 
 div.orgChart tr.lines td.line {
-    width                 : 1px;
+    width                 : 20px;
     height                : 20px;
 }
 
@@ -52,13 +52,13 @@ div.orgChart td {
 }
 
 div.orgChart div.node {
-    cursor                : default;
+    cursor                : move;
     border                : 2px solid black;
     display               : inline-block;
     padding               : 0 4px;
-    width                 : 96px;
-    height                : 60px;
-    background-color      : #ffffcf;
+    width                 : 295px;
+    height                : 190px;
+    background-color      : #1c074d;
     line-height           : 1.3em;
     border-radius         : 8px;
     box-shadow            : 4px 4px 6px #888888;
